@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  font-family: "OpenSans";
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.section-padding {
+  padding-inline: 25px;
+}
+.top-bar {
+  padding-block: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.bottom-bar {
+  padding-block: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dadada;
+}
+.top-bar h2 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+.bottom-bar h2 {
+  color: #109e6c;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-size: 1.8rem;
+}
+.bottom-bar h2 sup {
+  font-size: 8px;
+  margin: 0;
+  font-weight: 600;
+}
+.top-bar p {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.bottom-bar a {
+  text-transform: uppercase;
+  color: #343434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.home-img {
+  width: 20px !important;
+}
+.hero-banner {
+  position: relative;
+  background-image: url(../Images/hero-tall-002.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 85.5vh;
+}
+.left-content {
+  width: 50%;
+}
+.left-content .flare-text {
+  width: 40vw;
+}
+.left-content .left-content {
+  position: absolute;
+  top: 0;
+  left: 25px;
+}
+.blocks {
+  margin-top: -22vh;
+}
+
+.blocks h3 {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 2vw;
+}
