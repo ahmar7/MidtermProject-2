@@ -64,10 +64,18 @@ a {
   font-weight: 400;
 }
 .bottom-bar h2 {
-  color: #109e6c;
+  color: #008b5d;
   font-weight: 500;
   letter-spacing: -1px;
   font-size: 1.8rem;
+}
+.chevron {
+  margin-top: 7px;
+  margin-left: 8px;
+  position: absolute;
+}
+.chevron img {
+  width: 15px !important;
 }
 .bottom-bar h2 sup {
   font-size: 8px;
@@ -153,7 +161,7 @@ a {
   padding: 20px;
   background-color: #105533;
   color: white;
-  width: 180px;
+  width: 173px;
   border-radius: 4px;
 }
 .bx-1 p {
@@ -171,9 +179,7 @@ a {
   display: flex;
   gap: 20px;
 }
-.chevron {
-  color: #8cad9b;
-}
+
 .bx-1.bx-2 {
   background-color: #348b65;
 }
@@ -237,6 +243,55 @@ a {
   gap: 10px;
   align-items: center;
   font-size: 18px;
+}
+.description-section {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.details {
+  width: 49%;
+}
+.details h1 {
+  font-size: 2.4vw;
+  color: #474747;
+}
+.details p {
+  font-size: 1.23vw;
+  color: #2b2b2b;
+  margin-top: 20px;
+}
+.clickable {
+  color: #006da4;
+  font-weight: 800;
+  margin-top: 20px;
+  font-size: 1.2vw;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.clickable .chevron {
+  position: static;
+  margin: 0;
+}
+.stu-img {
+  width: 100%;
+}
+.details h3 {
+  color: #4c4c4c;
+  font-weight: 500;
+  font-size: 15.5px;
+  margin-top: 20px;
+}
+.clickable2 {
+  color: #006da4;
+  display: inline-flex;
+  font-weight: 600;
+  gap: 5px;
+  align-items: center;
+}
+.link {
+  width: 20px !important;
 }
 @media (min-width: 1500px) {
   .blocks {
